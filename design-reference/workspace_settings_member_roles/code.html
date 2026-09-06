@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"inverse-on-surface":"#283044","primary":"#c0c1ff","outline":"#908fa0","surface-tint":"#c0c1ff","error":"#ffb4ab","surface-variant":"#2d3449","secondary":"#93ccff","on-surface-variant":"#c7c4d7","surface-dim":"#0b1326","on-tertiary-container":"#000703","on-primary-fixed":"#07006c","outline-variant":"#464554","on-primary-fixed-variant":"#2f2ebe","surface-container":"#171f33","inverse-primary":"#494bd6","tertiary":"#4edea3","secondary-container":"#3198dc","on-surface":"#dae2fd","on-error":"#690005","background":"#0b1326","surface-container-high":"#222a3d","surface-bright":"#31394d","on-secondary-container":"#002c47","primary-container":"#8083ff","surface-container-low":"#131b2e","on-tertiary":"#003824","primary-fixed":"#e1e0ff","primary-fixed-dim":"#c0c1ff","tertiary-fixed":"#6ffbbe","inverse-surface":"#dae2fd","secondary-fixed-dim":"#93ccff","surface-container-highest":"#2d3449","surface-container-lowest":"#060e20","on-primary-container":"#0d0096","on-background":"#dae2fd","on-secondary-fixed":"#001d31","on-tertiary-fixed-variant":"#005236","on-secondary":"#003351","on-secondary-fixed-variant":"#004b73","tertiary-container":"#00885d","tertiary-fixed-dim":"#4edea3","surface":"#0b1326","on-error-container":"#ffdad6","on-tertiary-fixed":"#002113","on-primary":"#1000a9","error-container":"#93000a","secondary-fixed":"#cce5ff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xl":"1.5rem","space-3xl":"3rem","space-md":"0.75rem","margin-page":"1.5rem","space-lg":"1rem","gutter-default":"1.25rem","space-xs":"0.25rem","space-sm":"0.5rem","space-2xl":"2rem","gutter-compact":"0.75rem","space-2xs":"0.125rem"},"fontFamily":{"headline-lg":["Inter"],"body-sm":["Inter"],"headline-lg-mobile":["Inter"],"body-md":["Inter"],"label-sm":["Inter"],"label-md":["Inter"],"display-lg":["Inter"],"code-tabular":["JetBrains Mono"],"headline-sm":["Inter"],"body-lg":["Inter"],"headline-md":["Inter"]},"fontSize":{"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-md":["13px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"500"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.025em","fontWeight":"700"}],"code-tabular":["12px",{"lineHeight":"16px","letterSpacing":"0em","fontWeight":"400"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["15px",{"lineHeight":"22px","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col h-full overflow-hidden"><div class="h-16 px-space-md flex items-center justify-between bg-surface-container-lowest/80 backdrop-blur-xl"><div class="flex items-center gap-space-sm w-full"><img alt="Workspace Manager Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wtp39_fu7ELKIGss3zHbIqdRrw2bVBrdVKvvL-YREfveZxrgcLRKuvNXv3txfdpmWrzUEiLEwKhhp6K8q-bUC_GdzDQPgcS3XtpvW9RQbVnmCDjKQWjc1KxQM3BCOe8L7rCguTtezdQLL5zQR4rjz1J2GDWMerKdYkz27UKuqQwhKr9Gdmh-mQrBonvJZbN2an6l-gOdjJA-HJm5z3bTAAVbgjO0gWbkVrOv_ebMw6C4KsXOeBzdKiUng"/><div class="flex-1 min-w-0"><button class="w-full flex items-center justify-between px-space-sm py-space-xs rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors text-left group" type="button"><div class="flex items-center gap-space-xs truncate"><span class="w-2 h-2 rounded-full bg-primary shrink-0"></span><span class="font-label-md text-label-md text-on-surface truncate">Acme Corp HQ</span></div><span class="material-symbols-outlined text-[16px] text-on-surface-variant group-hover:text-on-surface shrink-0">unfold_more</span></button></div></div></div><div class="px-space-md py-space-xs"><button class="w-full flex items-center justify-center gap-space-xs py-1.5 px-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors font-label-sm text-label-sm" type="button"><span class="material-symbols-outlined text-[15px]">add</span><span>Create workspace</span></button></div><div class="flex-1 overflow-y-auto px-space-sm py-space-sm space-y-space-md"><div class="space-y-space-2xs"><div class="px-space-sm py-space-2xs text-[10px] uppercase font-code-tabular tracking-wider text-outline">Core</div><nav class="space-y-space-2xs" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="all-tasks" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">check_circle</span><span>All Tasks</span></div><span class="font-code-tabular text-[11px] px-1.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">42</span></a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="activity-log" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">history</span><span>Activity Log</span></div></a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="members-permissions" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">group</span><span>Members &amp; Roles</span></div></a></nav></div><div class="space-y-space-2xs"><div class="flex items-center justify-between px-space-sm py-space-2xs"><span class="text-[10px] uppercase font-code-tabular tracking-wider text-outline">Views</span></div><nav class="space-y-space-2xs" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-1.5 transition-colors bg-surface-container-high text-on-surface font-bold rounded-lg" data-path="board-view" href="#"><span class="material-symbols-outlined text-[18px]">view_kanban</span><span>Board</span></a><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="list-view" href="#"><span class="material-symbols-outlined text-[18px]">format_list_bulleted</span><span>List</span></a><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="calendar-view" href="#"><span class="material-symbols-outlined text-[18px]">calendar_today</span><span>Calendar</span></a></nav></div><div class="space-y-space-2xs"><div class="flex items-center justify-between px-space-sm py-space-2xs"><span class="text-[10px] uppercase font-code-tabular tracking-wider text-outline">Projects</span><button class="text-on-surface-variant hover:text-on-surface flex items-center" type="button"><span class="material-symbols-outlined text-[15px]">add</span></button></div><nav class="space-y-space-2xs" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="mobile-app-redesign" href="#"><div class="flex items-center gap-space-sm truncate"><span class="w-2 h-2 rounded bg-tertiary shrink-0"></span><span class="truncate">Mobile App Redesign</span></div></a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="core-api-v2" href="#"><div class="flex items-center gap-space-sm truncate"><span class="w-2 h-2 rounded bg-secondary shrink-0"></span><span class="truncate">Core API v2</span></div></a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="growth-marketing" href="#"><div class="flex items-center gap-space-sm truncate"><span class="w-2 h-2 rounded bg-primary-container shrink-0"></span><span class="truncate">Growth &amp; Marketing</span></div></a></nav></div><div class="space-y-space-2xs"><div class="px-space-sm py-space-2xs text-[10px] uppercase font-code-tabular tracking-wider text-outline">System</div><nav class="space-y-space-2xs" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="settings" href="#"><span class="material-symbols-outlined text-[18px]">settings</span><span>Workspace Settings</span></a></nav></div></div></div><div class="p-space-md bg-surface-container-lowest/90 space-y-space-sm"><div class="flex items-center justify-between px-space-sm py-1.5 rounded-lg bg-surface-container-low"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px] text-outline">keyboard</span><span class="font-code-tabular text-[11px] text-outline">Shortcuts</span></div><span class="font-code-tabular text-[10px] px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface-variant">?</span></div><div class="flex items-center justify-between px-space-sm py-1 rounded-lg bg-surface-container-low"><div class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Role Access</span></div><span class="font-code-tabular text-[10px] uppercase tracking-wide px-2 py-0.5 rounded-full bg-primary/15 text-primary">Owner</span></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant"><span class="hover:text-on-surface transition-colors cursor-pointer">Acme Corp HQ</span><span class="text-outline-variant">/</span><span class="hover:text-on-surface transition-colors cursor-pointer">Projects</span><span class="text-outline-variant">/</span><span class="text-on-surface font-semibold">Sprint 14 Backlog</span></div><div class="hidden xl:flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container-low text-tertiary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[14px] animate-pulse">check_circle</span><span>Saved</span></div><div class="hidden 2xl:flex items-center gap-space-xs px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-error shrink-0"></span><span>Offline Mode</span><button class="flex items-center gap-1 text-primary hover:underline ml-1" type="button"><span class="material-symbols-outlined text-[13px] animate-spin">sync</span><span>Sync now</span></button></div></div><div class="flex items-center gap-space-md"><div class="relative flex items-center"><div class="flex items-center gap-space-sm w-72 px-space-sm py-1.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer text-outline"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-body-md text-body-md text-on-surface-variant flex-1 text-left">Search or jump to...</span><span class="font-code-tabular text-[10px] px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface-variant">⌘K</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="relative p-2 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-primary-container text-on-primary-container font-code-tabular text-[9px] font-bold">3</span></button><button aria-label="Toggle theme" class="p-2 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">dark_mode</span></button></div><div class="flex items-center gap-space-sm pl-space-sm"><div class="flex items-center gap-space-sm bg-surface-container-low hover:bg-surface-container px-space-sm py-1 rounded-xl transition-colors cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOpgwS9xp6hheGMkjHGb-PIbdimMtmL5V-Sa5RRZntlSWHXW6HoSJncwcuMaz9gRR5rJ0t8OuaP8zeYvrxtG_i24f3wEFUZVq4xaG9MHrd5JfAQfoorV-T3P9qVOF7rI3NPDlxKw_UDTkz6K-dk21PjOpJF-OM1ZJkzP7GEYUzcWItbUDhe9SObfMgmznAwIcAFi34TVZTxkxLmHHlMbJmU_rWsfMzXNW5mtOfidEa8wBN93qcDKON"/><div class="hidden md:flex flex-col text-left"><div class="flex items-center gap-1.5"><span class="font-label-md text-label-md text-on-surface">Alex Rivera</span><span class="font-code-tabular text-[9px] px-1.5 py-0.2 rounded-full bg-primary/15 text-primary uppercase">Owner</span></div><span class="font-label-sm text-label-sm text-outline">alex@acmeworks.io</span></div><span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_drop_down</span></div><a aria-label="Log out" class="p-2 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-error transition-colors" data-path="login" href="#"><span class="material-symbols-outlined text-[20px]">logout</span></a></div></div></header><main class="w-full pt-16 bg-surface"><div class="flex flex-col w-full">
+<!-- Interactive View State Management -->
+<div class="relative w-full px-space-xl py-space-xl flex flex-col gap-space-2xl max-w-7xl mx-auto">
+<!-- Ambient Subtle Glow Container -->
+<div class="absolute top-10 right-20 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute bottom-20 left-10 w-80 h-80 bg-secondary-container/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- Page Context Header (Non-redundant, action oriented) -->
+<div class="flex flex-col md:flex-row md:items-center md:justify-between gap-space-md">
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs text-outline font-code-tabular text-label-sm uppercase tracking-wider">
+<span>Preferences</span>
+<span>/</span>
+<span class="text-primary font-semibold">Config Node #WS-8902</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight flex items-center gap-space-sm">
+          Workspace Settings &amp; Governance
+          <span class="font-code-tabular text-label-sm px-2 py-0.5 rounded-full bg-surface-container-high text-tertiary">v2.14 Online</span>
+</h1>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-space-xs px-3 py-1.5 rounded-xl bg-surface-container-low shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-tertiary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Auto-Sync Active</span>
+<span class="font-code-tabular text-[10px] text-outline ml-1">32ms</span>
+</div>
+<button class="px-space-md py-2 rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold hover:brightness-110 active:brightness-95 transition-all shadow-md flex items-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-[18px]">save</span>
+<span>Save Changes</span>
+</button>
+</div>
+</div>
+<!-- Main Settings Layout Grid: Sticky Sidebar Tabs + Contextual Flow -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Settings Navigation Rail / Sticky Subnav -->
+<aside class="lg:col-span-3 sticky top-20 flex flex-col gap-space-xs bg-surface-container-low/70 backdrop-blur-md p-space-sm rounded-xl shadow-sm">
+<div class="px-space-sm py-space-2xs text-outline text-[10px] uppercase tracking-widest font-code-tabular font-medium">Sections</div>
+<button class="tab-nav-btn w-full flex items-center justify-between px-space-md py-2.5 rounded-lg text-left transition-all bg-surface-container-high text-on-surface font-semibold shadow-sm" id="btn-tab-general" onclick="switchTab('tab-general')" type="button">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">domain</span>
+<span class="font-label-md text-label-md">General &amp; Profile</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-primary">chevron_right</span>
+</button>
+<button class="tab-nav-btn w-full flex items-center justify-between px-space-md py-2.5 rounded-lg text-left transition-all text-on-surface-variant hover:bg-surface-container hover:text-on-surface" id="btn-tab-members" onclick="switchTab('tab-members')" type="button">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+<span class="font-label-md text-label-md">Members &amp; Roles</span>
+</div>
+<span class="font-code-tabular text-label-sm px-1.5 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">8</span>
+</button>
+<button class="tab-nav-btn w-full flex items-center justify-between px-space-md py-2.5 rounded-lg text-left transition-all text-on-surface-variant hover:bg-surface-container hover:text-on-surface" id="btn-tab-projects" onclick="switchTab('tab-projects')" type="button">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px]">folder_copy</span>
+<span class="font-label-md text-label-md">Projects Scope</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+</button>
+<button class="tab-nav-btn w-full flex items-center justify-between px-space-md py-2.5 rounded-lg text-left transition-all text-on-surface-variant hover:bg-surface-container hover:text-on-surface" id="btn-tab-notifications" onclick="switchTab('tab-notifications')" type="button">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px]">notifications_active</span>
+<span class="font-label-md text-label-md">Notifications</span>
+</div>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+</button>
+<button class="tab-nav-btn w-full flex items-center justify-between px-space-md py-2.5 rounded-lg text-left transition-all text-on-surface-variant hover:bg-surface-container hover:text-on-surface" id="btn-tab-persistence" onclick="switchTab('tab-persistence')" type="button">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px]">cloud_sync</span>
+<span class="font-label-md text-label-md">Persistence &amp; Backup</span>
+</div>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+</button>
+<div class="my-space-xs pt-space-xs border-t-0"></div>
+<button class="tab-nav-btn w-full flex items-center justify-between px-space-md py-2.5 rounded-lg text-left transition-all text-error hover:bg-error-container/20" id="btn-tab-danger" onclick="switchTab('tab-danger')" type="button">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px]">dangerous</span>
+<span class="font-label-md text-label-md font-semibold">Danger Zone</span>
+</div>
+<span class="material-symbols-outlined text-[16px]">priority_high</span>
+</button>
+<!-- Storage & Seat Footprint Card -->
+<div class="mt-space-xl p-space-md rounded-xl bg-surface-container flex flex-col gap-space-sm shadow-inner">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase font-code-tabular">Storage Quota</span>
+<span class="font-code-tabular text-label-sm text-on-surface font-semibold">4.8 / 10 GB</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-gradient-to-r from-primary to-secondary rounded-full" style="width: 48%"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-outline">Team Allocation</span>
+<span class="font-label-sm text-label-sm text-tertiary">8 of 20 Seats</span>
+</div>
+</div>
+</aside>
+<!-- Content Area Pane -->
+<div class="lg:col-span-9 flex flex-col gap-space-2xl">
+<!-- SECTION 1: General & Workspace Info -->
+<section class="settings-panel flex flex-col gap-space-xl bg-surface-container-low p-space-xl rounded-xl shadow-md" id="tab-general">
+<div class="flex items-start justify-between pb-space-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">General Workspace Information</h2>
+<p class="font-body-md text-body-md text-outline mt-1">Configure your organization's core identification, workspace URL, and default execution view.</p>
+</div>
+<span class="font-code-tabular text-label-sm px-2 py-1 rounded bg-surface-container text-outline">ID: WS-0994</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Workspace Name -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-medium flex items-center justify-between">
+<span>Workspace Name</span>
+<span class="text-outline text-label-sm font-code-tabular">Required</span>
+</label>
+<div class="relative">
+<input class="w-full px-space-md py-2.5 rounded-lg bg-surface text-on-surface font-body-md text-body-md placeholder-outline focus:outline-none focus:bg-surface-container-high transition-colors shadow-inner" placeholder="Enter workspace title" type="text" value="Acme Corp HQ"/>
+<span class="material-symbols-outlined absolute right-3 top-2.5 text-[18px] text-tertiary">verified</span>
+</div>
+</div>
+<!-- URL Slug -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-medium">Workspace Slug &amp; Domain</label>
+<div class="flex rounded-lg overflow-hidden shadow-inner bg-surface">
+<span class="px-3 py-2.5 bg-surface-container text-outline font-code-tabular text-label-sm flex items-center">acme.work/</span>
+<input class="flex-1 px-space-sm py-2.5 bg-surface text-on-surface font-code-tabular text-label-sm focus:outline-none" type="text" value="acme-corp-hq"/>
+<button class="px-3 text-outline hover:text-on-surface transition-colors flex items-center" title="Copy URL" type="button">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Visual Icon & Accent Color Picker -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col md:flex-row md:items-center justify-between gap-space-lg">
+<div class="flex items-center gap-space-md">
+<div class="relative group cursor-pointer">
+<div class="w-16 h-16 rounded-xl bg-primary-container flex items-center justify-center text-on-primary-container font-headline-md text-headline-md shadow-lg transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-[32px]">hub</span>
+</div>
+<div class="absolute inset-0 bg-surface-container-lowest/60 rounded-xl opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity">
+<span class="material-symbols-outlined text-[20px] text-on-surface">photo_camera</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Workspace Accent Mark</span>
+<span class="font-body-sm text-body-sm text-outline">Used for favicon, dashboard headers, and email notifications.</span>
+</div>
+</div>
+<!-- Color Palette Nodes -->
+<div class="flex items-center gap-2">
+<button aria-label="Theme Violet" class="w-7 h-7 rounded-full bg-primary ring-2 ring-offset-2 ring-offset-surface-container ring-primary transition-transform scale-110" type="button"></button>
+<button aria-label="Theme Emerald" class="w-7 h-7 rounded-full bg-tertiary hover:scale-110 transition-transform" type="button"></button>
+<button aria-label="Theme Sky" class="w-7 h-7 rounded-full bg-secondary hover:scale-110 transition-transform" type="button"></button>
+<button aria-label="Theme Indigo" class="w-7 h-7 rounded-full bg-primary-container hover:scale-110 transition-transform" type="button"></button>
+<button aria-label="Theme Sunset" class="w-7 h-7 rounded-full bg-error hover:scale-110 transition-transform" type="button"></button>
+</div>
+</div>
+<!-- Default Layout Selector -->
+<div class="flex flex-col gap-space-sm">
+<label class="font-label-md text-label-md text-on-surface font-medium">Default Team Dashboard View</label>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Kanban Option (Selected) -->
+<label class="relative flex flex-col p-space-md rounded-xl bg-surface-container-high cursor-pointer shadow-md transition-all">
+<input checked="" class="peer sr-only" name="default-view" type="radio"/>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">view_kanban</span>
+<span class="w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-on-primary"></span>
+</span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface font-semibold">Kanban Board</span>
+<span class="font-body-sm text-body-sm text-outline mt-1">Status-driven pipeline optimized for continuous sprint delivery.</span>
+</label>
+<!-- List Option -->
+<label class="relative flex flex-col p-space-md rounded-xl bg-surface-container hover:bg-surface-container-high cursor-pointer transition-all">
+<input class="peer sr-only" name="default-view" type="radio"/>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="material-symbols-outlined text-outline text-[24px]">format_list_bulleted</span>
+<span class="w-4 h-4 rounded-full bg-surface-container-highest"></span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface font-semibold">Linear List</span>
+<span class="font-body-sm text-body-sm text-outline mt-1">High-density row format prioritizing rapid triage and bulk actions.</span>
+</label>
+<!-- Calendar Option -->
+<label class="relative flex flex-col p-space-md rounded-xl bg-surface-container hover:bg-surface-container-high cursor-pointer transition-all">
+<input class="peer sr-only" name="default-view" type="radio"/>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="material-symbols-outlined text-outline text-[24px]">calendar_month</span>
+<span class="w-4 h-4 rounded-full bg-surface-container-highest"></span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface font-semibold">Timeline &amp; Calendar</span>
+<span class="font-body-sm text-body-sm text-outline mt-1">Temporal deadline roadmap suited for quarterly milestone planning.</span>
+</label>
+</div>
+</div>
+</section>
+<!-- SECTION 2: Members & Role Management Table -->
+<section class="settings-panel flex flex-col gap-space-lg bg-surface-container-low p-space-xl rounded-xl shadow-md" id="tab-members">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Workspace Directory</h2>
+<span class="font-code-tabular text-label-sm px-2 py-0.5 rounded-full bg-primary/10 text-primary font-semibold">8 Active</span>
+</div>
+<p class="font-body-md text-body-md text-outline mt-0.5">Manage permissions, invite collaborators, and adjust access tiers.</p>
+</div>
+<!-- Actions Header -->
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold hover:brightness-110 active:scale-95 transition-all shadow-md flex items-center gap-1.5" onclick="toggleInviteModal(true)" type="button">
+<span class="material-symbols-outlined text-[18px]">person_add</span>
+<span>Invite Member</span>
+</button>
+</div>
+</div>
+<!-- Filter & Search Toolbar -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm p-space-xs bg-surface-container rounded-xl">
+<div class="relative w-full sm:w-72">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[18px] text-outline">search</span>
+<input class="w-full pl-9 pr-space-md py-2 rounded-lg bg-surface text-on-surface font-body-sm text-body-sm placeholder-outline focus:outline-none" placeholder="Filter by name or email..." type="text"/>
+</div>
+<div class="flex items-center gap-space-xs w-full sm:w-auto justify-end">
+<div class="flex items-center gap-1 bg-surface px-2 py-1.5 rounded-lg text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">filter_list</span>
+<span>Role:</span>
+<select class="bg-transparent text-on-surface font-label-sm text-label-sm focus:outline-none cursor-pointer">
+<option class="bg-surface-container">All Roles</option>
+<option class="bg-surface-container">Owner</option>
+<option class="bg-surface-container">Admin</option>
+<option class="bg-surface-container">Member</option>
+<option class="bg-surface-container">Viewer</option>
+</select>
+</div>
+<button class="p-2 rounded-lg bg-surface text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+</button>
+</div>
+</div>
+<!-- Members Table -->
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="font-label-sm text-label-sm text-outline uppercase font-code-tabular tracking-wider">
+<th class="py-space-sm px-space-md">Collaborator</th>
+<th class="py-space-sm px-space-md">Current Role</th>
+<th class="py-space-sm px-space-md">Last Active</th>
+<th class="py-space-sm px-space-md text-right">Actions</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-body-md divide-y-0">
+<!-- User 1: Owner -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<img class="w-9 h-9 rounded-full object-cover shadow-sm" data-alt="Close up professional portrait of a tech workspace owner in high quality studio lighting with subtle violet rim light dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7JCphvfW-92FM7rCILpYtNcnu2XHI3ExU0FZx0B0HRg_1PUJqlz7oS-IYaXKja8jCbKJOfpgwhwWJ-3UtRlv_mba0r31MLilGv0zkZdfvRjZrjtD0KPRyHMZkGhUtjzEwonqWZEqq2sJiJT5MWyZaJtQFHPNjYZq2PigPt29pnEqva9iim8n1AlDHYvmVQTRd4iOo4H2HXZauwJjgVO2wM7Or4n0MNkqHva4zkS2me854TAe2f4Ck"/>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface flex items-center gap-1.5">
+                          Alex Rivera
+                          <span class="material-symbols-outlined text-[14px] text-tertiary" title="Verified Account">verified</span>
+</span>
+<span class="font-code-tabular text-label-sm text-outline">alex@acmeworks.io</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 font-code-tabular text-label-sm px-2.5 py-1 rounded-full bg-primary/15 text-primary font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                      Owner
+                    </span>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col">
+<span class="text-on-surface font-code-tabular text-label-sm">Just now</span>
+<span class="text-outline text-[11px]">Active in #sprint-14</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-right">
+<span class="font-code-tabular text-label-sm text-outline px-2 py-1 bg-surface-container rounded">Primary</span>
+</td>
+</tr>
+<!-- User 2: Admin -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<img class="w-9 h-9 rounded-full object-cover shadow-sm" data-alt="Portrait of an engineering lead woman smiling with subtle cyan ambient lighting in an architectural studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxFkCaPu3ZUr2ziEboaPlIKO8Cse_zapHYIIHQva2KbkXsaSliMbKhjcmEnA-Lm9cqlyVJpHmKVuS_iP6yEcFiV1-cTyFg2lU8liKcxtjxXBszURXGZ8r7rEBUMJWMDNTIhXIC_MWQy9Dbs7GYwp4q9mnAeU6yP3IqFEpLcA-TBrlYg1W662kqxQTZscP5nrjPRWH_pAloXwVwaYZ0mstHbQiGih7XpVgqE-GCqmtbsgetJwnpxVo5"/>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface">Elena Rostova</span>
+<span class="font-code-tabular text-label-sm text-outline">elena.r@acmeworks.io</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 font-code-tabular text-label-sm px-2.5 py-1 rounded-full bg-primary-container/20 text-primary-container font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                      Admin
+                    </span>
+</td>
+<td class="py-space-md px-space-md">
+<span class="text-on-surface font-code-tabular text-label-sm">24m ago</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="relative inline-block text-left">
+<button class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- User 3: Member -->
+<tr class="hover:bg-surface-container/60 transition-colors group">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<img class="w-9 h-9 rounded-full object-cover shadow-sm" data-alt="Portrait of male frontend software engineer sitting in dim tech office surrounded by ambient screen reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlYXp4WbBQlxdjtuFHGOS7-KlSqk4puGepIYX2wxtH0oG8MjkBUQoV-IpZ-IYGsLmSHwSs5QLXAjjpvi7HyN5MyA9xJ5NYsVJS7DrGEdOMojocnJgRIlWoJ2s5EntBmDMtYEH37hSCIzFcb3HEb6f9d193m3iNUxz3lGj_NULWuHmuFnGVq8qLJMzo5EFSdi6HsDyvbTgucDMsPBVDPHUwjfG48OeA5DAgXFsP_lCzsU1it5Lp5y8d"/>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface">Devon Vance</span>
+<span class="font-code-tabular text-label-sm text-outline">devon.v@acmeworks.io</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 font-code-tabular text-label-sm px-2.5 py-1 rounded-full bg-surface-container-highest text-on-surface-variant font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                      Member
+                    </span>
+</td>
+<td class="py-space-md px-space-md">
+<span class="text-on-surface font-code-tabular text-label-sm">2 hours ago</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<button class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- User 4: Viewer (Locked / Restricted) -->
+<tr class="hover:bg-surface-container/60 transition-colors group bg-surface-container-lowest/30">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-outline font-label-md">
+                        MK
+                      </div>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface flex items-center gap-1">
+                          Marcus Kane
+                          <span class="material-symbols-outlined text-[13px] text-outline" title="External Contractor">apartment</span>
+</span>
+<span class="font-code-tabular text-label-sm text-outline">m.kane@consultant.io</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="inline-flex items-center gap-1.5 font-code-tabular text-label-sm px-2.5 py-1 rounded-full bg-surface-container-high text-outline group-hover:text-on-surface transition-colors" title="Read-only permissions: Cannot edit or delete backlog entities">
+<span class="material-symbols-outlined text-[13px] text-outline">lock</span>
+                      Viewer (Locked)
+                    </div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="text-outline font-code-tabular text-label-sm">3 days ago</span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="flex items-center justify-end gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline" title="Role cannot execute destructive workspace adjustments">shield_locked</span>
+<button class="p-1.5 rounded-lg text-outline hover:text-on-surface hover:bg-surface-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Role Legend Callout -->
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md text-label-sm">
+<div class="flex items-center gap-space-sm text-outline">
+<span class="material-symbols-outlined text-[18px] text-secondary">info</span>
+<span>Viewer accounts have restricted telemetry and are locked against bulk export privileges.</span>
+</div>
+<a class="text-primary hover:underline font-medium flex items-center gap-1" href="#">
+              Read Role Matrix Guide <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</section>
+<!-- SECTION 3: Projects Scope / Defaults Placeholder Preview -->
+<section class="settings-panel hidden flex-col gap-space-md bg-surface-container-low p-space-xl rounded-xl shadow-md" id="tab-projects">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Project Defaults &amp; Visibility</h2>
+<p class="font-body-md text-body-md text-outline mt-1">Configure global repo hooks, sprint lengths, and default project templates.</p>
+</div>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm hover:bg-surface-container-highest transition-colors" type="button">
+              Add Global Template
+            </button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-sm">
+<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary text-[24px]">timer</span>
+<div class="flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Sprint Duration</span>
+<span class="font-body-sm text-body-sm text-outline">Active setting: 2-week continuous delivery cycles reset every other Monday at 09:00 UTC.</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md">
+<span class="material-symbols-outlined text-tertiary text-[24px]">visibility</span>
+<div class="flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Workspace Visibility</span>
+<span class="font-body-sm text-body-sm text-outline">Internal-Only. Members require email verification matching company domain.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: Notification Preferences -->
+<section class="settings-panel hidden flex-col gap-space-lg bg-surface-container-low p-space-xl rounded-xl shadow-md" id="tab-notifications">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Workspace Notification Delivery</h2>
+<p class="font-body-md text-body-md text-outline mt-1">Direct digest notifications, critical security alerts, and webhook triggers.</p>
+</div>
+<div class="space-y-space-md">
+<div class="flex items-center justify-between p-space-md rounded-xl bg-surface-container">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Daily Sprint Summary via Email</span>
+<span class="font-body-sm text-body-sm text-outline">Receive completed ticket reports every evening at 18:00.</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-on-primary-container after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary-container"></div>
+</label>
+</div>
+<div class="flex items-center justify-between p-space-md rounded-xl bg-surface-container">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Emergency Status Alerts</span>
+<span class="font-body-sm text-body-sm text-outline">Notify all administrators if offline sync drops for more than 30 minutes.</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-on-primary-container after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary-container"></div>
+</label>
+</div>
+</div>
+</section>
+<!-- SECTION 5: Data Persistence & Offline Export/Import -->
+<section class="settings-panel flex flex-col gap-space-xl bg-surface-container-low p-space-xl rounded-xl shadow-md" id="tab-persistence">
+<div class="flex items-start justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Data Persistence, Sync &amp; Backups</h2>
+<p class="font-body-md text-body-md text-outline mt-1">Export local workspace states, import structured backups, and audit synchronization cache.</p>
+</div>
+<!-- Dynamic Sync Metric Badge -->
+<div class="flex items-center gap-space-xs px-3 py-1 rounded-full bg-tertiary/10 text-tertiary font-code-tabular text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px]">cloud_done</span>
+<span>Fully Replicated</span>
+</div>
+</div>
+<!-- Dual Grid: Export & Dropzone Import -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Export Card -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[22px]">download_for_offline</span>
+<span class="font-headline-sm text-label-md font-semibold">Export Workspace Data</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline">
+                  Download a complete dump of tasks, sprints, members, and activity timelines in encrypted JSON or schema-ready CSV format.
+                </p>
+</div>
+<!-- Inline Mock Mini SVG Data Stat -->
+<div class="p-space-sm rounded-lg bg-surface-container-lowest flex items-center justify-between">
+<div class="flex flex-col font-code-tabular text-[11px] text-outline">
+<span>Archive Payload</span>
+<span class="text-on-surface font-semibold">14,204 Entities (~14.2 MB)</span>
+</div>
+<svg class="w-20 h-7 text-secondary" fill="none" viewbox="0 0 100 35">
+<path d="M0 30 Q25 10 50 20 T100 5" fill="none" stroke="currentColor" stroke-width="2"></path>
+</svg>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="flex-1 py-2 px-space-md rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors flex items-center justify-center gap-1.5 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">data_object</span>
+<span>JSON Package</span>
+</button>
+<button class="flex-1 py-2 px-space-md rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors flex items-center justify-center gap-1.5 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">table_chart</span>
+<span>CSV Dump</span>
+</button>
+</div>
+</div>
+<!-- Import Dropzone Card -->
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-[22px]">upload_file</span>
+<span class="font-headline-sm text-label-md font-semibold">Import Workspace Backup</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline">
+                  Restore backlog schemas or migrate from Jira / Asana snapshots.
+                </p>
+</div>
+<!-- Drag & Drop Mock Target -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest/70 hover:bg-surface-container-lowest transition-colors flex flex-col items-center justify-center text-center cursor-pointer group">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-outline group-hover:text-primary transition-colors mb-2">
+<span class="material-symbols-outlined text-[20px]">cloud_upload</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-medium">Drop archive file here or <span class="text-primary hover:underline">browse</span></span>
+<span class="font-code-tabular text-[10px] text-outline mt-1">Supports .JSON, .ZIP, .GZ up to 50MB</span>
+</div>
+<!-- Validation State Indicator -->
+<div class="flex items-center justify-between font-label-sm text-label-sm px-space-sm py-1 rounded bg-tertiary/10 text-tertiary">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">check_circle</span>
+<span>Schema Parser Ready (v2 Spec)</span>
+</span>
+<span class="font-code-tabular text-[10px]">CRC-OK</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: Danger Zone -->
+<section class="settings-panel flex flex-col gap-space-lg bg-surface-container-low p-space-xl rounded-xl shadow-md border-0 relative overflow-hidden" id="tab-danger">
+<!-- Subtle Red Scrim on Background -->
+<div class="absolute inset-0 bg-gradient-to-r from-error-container/20 to-transparent pointer-events-none"></div>
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md relative z-10">
+<div class="flex items-start gap-space-md">
+<div class="p-2.5 rounded-xl bg-error-container text-on-error flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">warning</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-headline-sm text-headline-sm text-error font-semibold">Danger Zone</h2>
+<p class="font-body-md text-body-md text-outline mt-1 max-w-xl">
+                  Irreversible administrative operations. Terminating the workspace removes all project epics, task histories, attachment caches, and active tokens immediately.
+                </p>
+</div>
+</div>
+<button class="px-space-md py-2.5 rounded-xl bg-error text-on-error font-label-md text-label-md font-semibold hover:brightness-110 active:scale-95 transition-all shadow-md flex items-center justify-center gap-space-xs shrink-0" onclick="toggleDangerModal(true)" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_forever</span>
+<span>Delete Workspace</span>
+</button>
+</div>
+<!-- Ownership Transfer Card in Danger Zone -->
+<div class="p-space-md rounded-xl bg-surface-container relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Transfer Master Ownership</span>
+<span class="font-body-sm text-body-sm text-outline">Assign your primary administrative key to another verified team member.</span>
+</div>
+<button class="px-space-md py-2 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-sm text-label-sm font-medium transition-colors" type="button">
+              Transfer Ownership
+            </button>
+</div>
+</section>
+</div>
+</div>
+</div>
+<!-- MODAL: Invite Member (Hidden by default) -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center p-space-md bg-surface-container-lowest/80 backdrop-blur-md" id="invite-modal">
+<div class="w-full max-w-lg rounded-xl bg-surface-container p-space-xl shadow-2xl flex flex-col gap-space-lg relative">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">group_add</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Invite Teammate to Acme HQ</h3>
+</div>
+<button class="p-1 rounded-lg text-outline hover:text-on-surface transition-colors" onclick="toggleInviteModal(false)" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Work Email Address</label>
+<input class="w-full px-space-md py-2.5 rounded-lg bg-surface text-on-surface font-body-md text-body-md placeholder-outline focus:outline-none shadow-inner" placeholder="colleague@acmeworks.io" type="email"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Assign Initial Role</label>
+<div class="grid grid-cols-3 gap-space-xs">
+<label class="flex flex-col p-space-sm rounded-lg bg-surface hover:bg-surface-container-high cursor-pointer text-center">
+<input class="sr-only" name="invite-role" type="radio" value="admin"/>
+<span class="font-label-md text-label-md text-on-surface font-medium">Admin</span>
+<span class="text-[10px] text-outline font-code-tabular mt-0.5">Manage All</span>
+</label>
+<label class="flex flex-col p-space-sm rounded-lg bg-surface-container-high cursor-pointer text-center">
+<input checked="" class="sr-only" name="invite-role" type="radio" value="member"/>
+<span class="font-label-md text-label-md text-primary font-medium">Member</span>
+<span class="text-[10px] text-outline font-code-tabular mt-0.5">Edit Tasks</span>
+</label>
+<label class="flex flex-col p-space-sm rounded-lg bg-surface hover:bg-surface-container-high cursor-pointer text-center">
+<input class="sr-only" name="invite-role" type="radio" value="viewer"/>
+<span class="font-label-md text-label-md text-on-surface font-medium">Viewer</span>
+<span class="text-[10px] text-outline font-code-tabular mt-0.5">Read Only</span>
+</label>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Optional Custom Invitation Note</label>
+<textarea class="w-full px-space-md py-2 rounded-lg bg-surface text-on-surface font-body-md text-body-md placeholder-outline focus:outline-none resize-none shadow-inner" placeholder="Welcome aboard! Looking forward to having you on Sprint 14..." rows="2"></textarea>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-2 rounded-lg bg-transparent text-outline hover:text-on-surface font-label-md text-label-md transition-colors" onclick="toggleInviteModal(false)" type="button">
+          Cancel
+        </button>
+<button class="px-space-md py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-semibold hover:brightness-110 active:scale-95 transition-all shadow-md flex items-center gap-1" onclick="toggleInviteModal(false)" type="button">
+<span class="material-symbols-outlined text-[16px]">send</span>
+<span>Send Invite</span>
+</button>
+</div>
+</div>
+</div>
+<!-- MODAL: Danger Zone Two-Step Confirmation Prompt -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center p-space-md bg-surface-container-lowest/85 backdrop-blur-md" id="danger-modal">
+<div class="w-full max-w-md rounded-xl bg-surface-container p-space-xl shadow-2xl flex flex-col gap-space-lg relative">
+<div class="flex items-center gap-space-sm text-error">
+<div class="p-2 rounded-xl bg-error-container text-on-error">
+<span class="material-symbols-outlined text-[24px]">crisis_alert</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm font-semibold">Delete Workspace?</h3>
+<span class="font-code-tabular text-[11px] text-outline">Action: PURGE_WORKSPACE_ALL</span>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<p>This will permanently erase all data associated with <strong class="text-on-surface">Acme Corp HQ</strong> including:</p>
+<ul class="list-disc pl-5 space-y-1 text-outline font-code-tabular text-[11px]">
+<li>42 Active Tasks &amp; 3 Projects</li>
+<li>8 Registered Member Access Accounts</li>
+<li>All Offline Revisions and Cache Stores</li>
+</ul>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-outline">To confirm, please type <span class="font-code-tabular text-error font-bold select-all">acme-corp-hq</span> below:</label>
+<input class="w-full px-space-md py-2 rounded-lg bg-surface text-on-surface font-code-tabular text-body-sm focus:outline-none shadow-inner" id="delete-confirm-input" oninput="validateDeleteInput(this.value)" placeholder="acme-corp-hq" type="text"/>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-2 rounded-lg bg-transparent text-outline hover:text-on-surface font-label-md text-label-md transition-colors" onclick="toggleDangerModal(false)" type="button">
+          Cancel
+        </button>
+<button class="px-space-md py-2 rounded-lg bg-error/40 text-on-error font-label-md text-label-md font-semibold cursor-not-allowed transition-all flex items-center gap-1 shadow-md" disabled="" id="btn-confirm-delete" type="button">
+<span class="material-symbols-outlined text-[16px]">delete_forever</span>
+<span>Permanently Delete</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+    // Tab Switcher Handling
+    function switchTab(targetTabId) {
+      // Hide all panels
+      document.querySelectorAll('.settings-panel').forEach(panel => {
+        panel.classList.add('hidden');
+        panel.classList.remove('flex');
+      });
+
+      // Show targeted panel
+      const target = document.getElementById(targetTabId);
+      if (target) {
+        target.classList.remove('hidden');
+        target.classList.add('flex');
+      }
+
+      // Update Nav Buttons State
+      document.querySelectorAll('.tab-nav-btn').forEach(btn => {
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface', 'font-semibold', 'shadow-sm');
+        btn.classList.add('text-on-surface-variant');
+      });
+
+      const activeBtn = document.getElementById('btn-' + targetTabId);
+      if (activeBtn) {
+        activeBtn.classList.add('bg-surface-container-high', 'text-on-surface', 'font-semibold', 'shadow-sm');
+        activeBtn.classList.remove('text-on-surface-variant');
+      }
+    }
+
+    // Modal Control Functions
+    function toggleInviteModal(show) {
+      const modal = document.getElementById('invite-modal');
+      if (show) {
+        modal.classList.remove('hidden');
+      } else {
+        modal.classList.add('hidden');
+      }
+    }
+
+    function toggleDangerModal(show) {
+      const modal = document.getElementById('danger-modal');
+      const input = document.getElementById('delete-confirm-input');
+      const btn = document.getElementById('btn-confirm-delete');
+      if (show) {
+        input.value = '';
+        btn.disabled = true;
+        btn.classList.add('bg-error/40', 'cursor-not-allowed');
+        btn.classList.remove('bg-error', 'hover:brightness-110');
+        modal.classList.remove('hidden');
+      } else {
+        modal.classList.add('hidden');
+      }
+    }
+
+    function validateDeleteInput(val) {
+      const btn = document.getElementById('btn-confirm-delete');
+      if (val.trim() === 'acme-corp-hq') {
+        btn.disabled = false;
+        btn.classList.remove('bg-error/40', 'cursor-not-allowed');
+        btn.classList.add('bg-error', 'hover:brightness-110');
+      } else {
+        btn.disabled = true;
+        btn.classList.add('bg-error/40', 'cursor-not-allowed');
+        btn.classList.remove('bg-error', 'hover:brightness-110');
+      }
+    }
+  </script>
+</div></main></div></body></html>

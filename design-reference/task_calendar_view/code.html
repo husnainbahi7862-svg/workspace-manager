@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"inverse-on-surface":"#283044","primary":"#c0c1ff","outline":"#908fa0","surface-tint":"#c0c1ff","error":"#ffb4ab","surface-variant":"#2d3449","secondary":"#93ccff","on-surface-variant":"#c7c4d7","surface-dim":"#0b1326","on-tertiary-container":"#000703","on-primary-fixed":"#07006c","outline-variant":"#464554","on-primary-fixed-variant":"#2f2ebe","surface-container":"#171f33","inverse-primary":"#494bd6","tertiary":"#4edea3","secondary-container":"#3198dc","on-surface":"#dae2fd","on-error":"#690005","background":"#0b1326","surface-container-high":"#222a3d","surface-bright":"#31394d","on-secondary-container":"#002c47","primary-container":"#8083ff","surface-container-low":"#131b2e","on-tertiary":"#003824","primary-fixed":"#e1e0ff","primary-fixed-dim":"#c0c1ff","tertiary-fixed":"#6ffbbe","inverse-surface":"#dae2fd","secondary-fixed-dim":"#93ccff","surface-container-highest":"#2d3449","surface-container-lowest":"#060e20","on-primary-container":"#0d0096","on-background":"#dae2fd","on-secondary-fixed":"#001d31","on-tertiary-fixed-variant":"#005236","on-secondary":"#003351","on-secondary-fixed-variant":"#004b73","tertiary-container":"#00885d","tertiary-fixed-dim":"#4edea3","surface":"#0b1326","on-error-container":"#ffdad6","on-tertiary-fixed":"#002113","on-primary":"#1000a9","error-container":"#93000a","secondary-fixed":"#cce5ff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xl":"1.5rem","space-3xl":"3rem","space-md":"0.75rem","margin-page":"1.5rem","space-lg":"1rem","gutter-default":"1.25rem","space-xs":"0.25rem","space-sm":"0.5rem","space-2xl":"2rem","gutter-compact":"0.75rem","space-2xs":"0.125rem"},"fontFamily":{"headline-lg":["Inter"],"body-sm":["Inter"],"headline-lg-mobile":["Inter"],"body-md":["Inter"],"label-sm":["Inter"],"label-md":["Inter"],"display-lg":["Inter"],"code-tabular":["JetBrains Mono"],"headline-sm":["Inter"],"body-lg":["Inter"],"headline-md":["Inter"]},"fontSize":{"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-md":["13px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"500"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.025em","fontWeight":"700"}],"code-tabular":["12px",{"lineHeight":"16px","letterSpacing":"0em","fontWeight":"400"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["15px",{"lineHeight":"22px","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col h-full overflow-hidden"><div class="h-16 px-space-md flex items-center justify-between bg-surface-container-lowest/80 backdrop-blur-xl"><div class="flex items-center gap-space-sm w-full"><img alt="Workspace Manager Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wtp39_fu7ELKIGss3zHbIqdRrw2bVBrdVKvvL-YREfveZxrgcLRKuvNXv3txfdpmWrzUEiLEwKhhp6K8q-bUC_GdzDQPgcS3XtpvW9RQbVnmCDjKQWjc1KxQM3BCOe8L7rCguTtezdQLL5zQR4rjz1J2GDWMerKdYkz27UKuqQwhKr9Gdmh-mQrBonvJZbN2an6l-gOdjJA-HJm5z3bTAAVbgjO0gWbkVrOv_ebMw6C4KsXOeBzdKiUng"/><div class="flex-1 min-w-0"><button class="w-full flex items-center justify-between px-space-sm py-space-xs rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors text-left group" type="button"><div class="flex items-center gap-space-xs truncate"><span class="w-2 h-2 rounded-full bg-primary shrink-0"></span><span class="font-label-md text-label-md text-on-surface truncate">Acme Corp HQ</span></div><span class="material-symbols-outlined text-[16px] text-on-surface-variant group-hover:text-on-surface shrink-0">unfold_more</span></button></div></div></div><div class="px-space-md py-space-xs"><button class="w-full flex items-center justify-center gap-space-xs py-1.5 px-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors font-label-sm text-label-sm" type="button"><span class="material-symbols-outlined text-[15px]">add</span><span>Create workspace</span></button></div><div class="flex-1 overflow-y-auto px-space-sm py-space-sm space-y-space-md"><div class="space-y-space-2xs"><div class="px-space-sm py-space-2xs text-[10px] uppercase font-code-tabular tracking-wider text-outline">Core</div><nav class="space-y-space-2xs" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="all-tasks" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">check_circle</span><span>All Tasks</span></div><span class="font-code-tabular text-[11px] px-1.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">42</span></a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="activity-log" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">history</span><span>Activity Log</span></div></a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="members-permissions" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">group</span><span>Members &amp; Roles</span></div></a></nav></div><div class="space-y-space-2xs"><div class="flex items-center justify-between px-space-sm py-space-2xs"><span class="text-[10px] uppercase font-code-tabular tracking-wider text-outline">Views</span></div><nav class="space-y-space-2xs" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="board-view" href="#"><span class="material-symbols-outlined text-[18px]">view_kanban</span><span>Board</span></a><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="list-view" href="#"><span class="material-symbols-outlined text-[18px]">format_list_bulleted</span><span>List</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-1.5 transition-colors bg-surface-container-high text-on-surface font-bold rounded-lg" data-path="calendar-view" href="#"><span class="material-symbols-outlined text-[18px]">calendar_today</span><span>Calendar</span></a></nav></div><div class="space-y-space-2xs"><div class="flex items-center justify-between px-space-sm py-space-2xs"><span class="text-[10px] uppercase font-code-tabular tracking-wider text-outline">Projects</span><button class="text-on-surface-variant hover:text-on-surface flex items-center" type="button"><span class="material-symbols-outlined text-[15px]">add</span></button></div><nav class="space-y-space-2xs" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="mobile-app-redesign" href="#"><div class="flex items-center gap-space-sm truncate"><span class="w-2 h-2 rounded bg-tertiary shrink-0"></span><span class="truncate">Mobile App Redesign</span></div></a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="core-api-v2" href="#"><div class="flex items-center gap-space-sm truncate"><span class="w-2 h-2 rounded bg-secondary shrink-0"></span><span class="truncate">Core API v2</span></div></a><a class="flex items-center justify-between px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="growth-marketing" href="#"><div class="flex items-center gap-space-sm truncate"><span class="w-2 h-2 rounded bg-primary-container shrink-0"></span><span class="truncate">Growth &amp; Marketing</span></div></a></nav></div><div class="space-y-space-2xs"><div class="px-space-sm py-space-2xs text-[10px] uppercase font-code-tabular tracking-wider text-outline">System</div><nav class="space-y-space-2xs" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="settings" href="#"><span class="material-symbols-outlined text-[18px]">settings</span><span>Workspace Settings</span></a></nav></div></div></div><div class="p-space-md bg-surface-container-lowest/90 space-y-space-sm"><div class="flex items-center justify-between px-space-sm py-1.5 rounded-lg bg-surface-container-low"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px] text-outline">keyboard</span><span class="font-code-tabular text-[11px] text-outline">Shortcuts</span></div><span class="font-code-tabular text-[10px] px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface-variant">?</span></div><div class="flex items-center justify-between px-space-sm py-1 rounded-lg bg-surface-container-low"><div class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Role Access</span></div><span class="font-code-tabular text-[10px] uppercase tracking-wide px-2 py-0.5 rounded-full bg-primary/15 text-primary">Owner</span></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant"><span class="hover:text-on-surface transition-colors cursor-pointer">Acme Corp HQ</span><span class="text-outline-variant">/</span><span class="hover:text-on-surface transition-colors cursor-pointer">Projects</span><span class="text-outline-variant">/</span><span class="text-on-surface font-semibold">Sprint 14 Backlog</span></div><div class="hidden xl:flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container-low text-tertiary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[14px] animate-pulse">check_circle</span><span>Saved</span></div><div class="hidden 2xl:flex items-center gap-space-xs px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-error shrink-0"></span><span>Offline Mode</span><button class="flex items-center gap-1 text-primary hover:underline ml-1" type="button"><span class="material-symbols-outlined text-[13px] animate-spin">sync</span><span>Sync now</span></button></div></div><div class="flex items-center gap-space-md"><div class="relative flex items-center"><div class="flex items-center gap-space-sm w-72 px-space-sm py-1.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors cursor-pointer text-outline"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-body-md text-body-md text-on-surface-variant flex-1 text-left">Search or jump to...</span><span class="font-code-tabular text-[10px] px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface-variant">⌘K</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="relative p-2 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-primary-container text-on-primary-container font-code-tabular text-[9px] font-bold">3</span></button><button aria-label="Toggle theme" class="p-2 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">dark_mode</span></button></div><div class="flex items-center gap-space-sm pl-space-sm"><div class="flex items-center gap-space-sm bg-surface-container-low hover:bg-surface-container px-space-sm py-1 rounded-xl transition-colors cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOpgwS9xp6hheGMkjHGb-PIbdimMtmL5V-Sa5RRZntlSWHXW6HoSJncwcuMaz9gRR5rJ0t8OuaP8zeYvrxtG_i24f3wEFUZVq4xaG9MHrd5JfAQfoorV-T3P9qVOF7rI3NPDlxKw_UDTkz6K-dk21PjOpJF-OM1ZJkzP7GEYUzcWItbUDhe9SObfMgmznAwIcAFi34TVZTxkxLmHHlMbJmU_rWsfMzXNW5mtOfidEa8wBN93qcDKON"/><div class="hidden md:flex flex-col text-left"><div class="flex items-center gap-1.5"><span class="font-label-md text-label-md text-on-surface">Alex Rivera</span><span class="font-code-tabular text-[9px] px-1.5 py-0.2 rounded-full bg-primary/15 text-primary uppercase">Owner</span></div><span class="font-label-sm text-label-sm text-outline">alex@acmeworks.io</span></div><span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_drop_down</span></div><a aria-label="Log out" class="p-2 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-error transition-colors" data-path="login" href="#"><span class="material-symbols-outlined text-[20px]">logout</span></a></div></div></header><main class="w-full pt-16 bg-surface"><div class="flex flex-col w-full">
+<!-- View Control Subheader -->
+<div class="flex flex-col gap-space-md px-space-lg py-space-md bg-surface-container-lowest">
+<!-- Row 1: View Mode Switcher, Sprints & Action Buttons -->
+<div class="flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<!-- View Tabs -->
+<div class="flex items-center p-1 bg-surface-container rounded-xl">
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" data-path="board-view" href="#">
+<span class="material-symbols-outlined text-[16px]">view_kanban</span>
+<span>Board</span>
+</a>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md" data-path="list-view" href="#">
+<span class="material-symbols-outlined text-[16px]">format_list_bulleted</span>
+<span>List</span>
+</a>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span>
+<span>Calendar</span>
+</button>
+</div>
+<div class="h-4 w-px bg-surface-container-highest"></div>
+<!-- Sprint & Metric Quickpill -->
+<div class="flex items-center gap-2">
+<span class="font-code-tabular text-[11px] px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-medium tracking-wide">SPRINT 14</span>
+<span class="font-body-sm text-body-sm text-outline">Oct 6 – Oct 31, 2025</span>
+</div>
+</div>
+<!-- Actions & Fast Create -->
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center bg-surface-container-low px-2 py-1 rounded-xl gap-2">
+<span class="material-symbols-outlined text-[16px] text-tertiary">bolt</span>
+<span class="font-code-tabular text-[11px] text-on-surface-variant">Velocity: <strong class="text-on-surface font-semibold">38/44 pts</strong></span>
+</div>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all shadow-md active:scale-95" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add Task</span>
+</button>
+</div>
+</div>
+<!-- Row 2: Navigation & Filter Toolbar -->
+<div class="flex flex-wrap items-center justify-between gap-space-md pt-1">
+<!-- Calendar Nav Controls -->
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-1 bg-surface-container p-0.5 rounded-xl">
+<button aria-label="Previous month" class="p-1 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors flex items-center" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="px-2.5 py-1 rounded-lg hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+            Today
+          </button>
+<button aria-label="Next month" class="p-1 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors flex items-center" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+<div class="flex items-center gap-2">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">October 2025</h2>
+<span class="material-symbols-outlined text-outline text-[18px] cursor-pointer hover:text-on-surface">expand_more</span>
+</div>
+</div>
+<!-- Granularity & Filters -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Filter Chips (Jira/Notion style) -->
+<div class="flex items-center gap-1.5 bg-surface-container-low p-1 rounded-xl">
+<button class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px] text-outline">group</span>
+<span>Assignee:</span>
+<span class="text-primary font-semibold">All</span>
+<span class="material-symbols-outlined text-[13px] text-outline">close</span>
+</button>
+<button class="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px] text-outline">flag</span>
+<span>Priority:</span>
+<span class="text-primary font-semibold">All</span>
+<span class="material-symbols-outlined text-[13px] text-outline">arrow_drop_down</span>
+</button>
+<button class="flex items-center gap-1.5 px-2 py-1 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-sm text-label-sm transition-colors" type="button">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+<span>+ Add filter</span>
+</button>
+</div>
+<div class="h-4 w-px bg-surface-container-highest"></div>
+<!-- Granularity Selector -->
+<div class="flex items-center bg-surface-container p-0.5 rounded-xl">
+<button class="px-3 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm font-semibold shadow-sm" type="button">Month</button>
+<button class="px-3 py-1 rounded-lg text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors" type="button">Week</button>
+<button class="px-3 py-1 rounded-lg text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors" type="button">Day</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Calendar Container -->
+<div class="p-space-lg bg-surface flex flex-col gap-space-lg">
+<!-- Main Month Grid View with Day Column Headers -->
+<div class="bg-surface-container-lowest rounded-xl shadow-xl overflow-hidden flex flex-col">
+<!-- Days of week bar -->
+<div class="grid grid-cols-7 bg-surface-container-low text-center py-2.5 font-label-sm text-label-sm uppercase tracking-wider text-outline">
+<div>Mon</div>
+<div>Tue</div>
+<div>Wed</div>
+<div>Thu</div>
+<div>Fri</div>
+<div class="text-on-surface-variant/50">Sat</div>
+<div class="text-on-surface-variant/50">Sun</div>
+</div>
+<!-- Calendar Matrix: 5 Weeks (35 Cells) -->
+<div class="grid grid-cols-7 auto-rows-fr gap-px bg-surface-container-highest/40">
+<!-- Week 1: Sep 29 - Oct 5 -->
+<div class="min-h-[120px] bg-surface-container-lowest/60 p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/40">29</span>
+</div>
+<div class="min-h-[120px] bg-surface-container-lowest/60 p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/40">30</span>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">1</span>
+<div class="px-2 py-1 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Sarah Jenkins" data-task-due="Oct 1, 2025" data-task-priority="Normal" data-task-status="Completed" data-task-title="Refactor GraphQL Queries" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary">check_circle</span>
+<span class="truncate">Refactor GraphQL Queries</span>
+</div>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">2</span>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">3</span>
+<div class="px-2 py-1 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Alex Rivera" data-task-due="Oct 3, 2025" data-task-priority="Medium" data-task-status="In Review" data-task-title="Audit Token Expirations" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary shrink-0"></span>
+<span class="truncate">Audit Token Expirations</span>
+</div>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container-low p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/60">4</span>
+</div>
+<div class="min-h-[120px] bg-surface-container-low p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/60">5</span>
+</div>
+<!-- Week 2: Oct 6 - Oct 12 -->
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">6</span>
+<!-- Low / Completed Task -->
+<div class="px-2 py-1 rounded-lg bg-tertiary-container/30 text-tertiary-fixed font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Elena Rostova" data-task-due="Oct 6, 2025" data-task-priority="Low" data-task-status="Done" data-task-title="Q3 Sprint retrospective" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-tertiary">check_circle</span>
+<span class="truncate">Q3 Sprint retrospective</span>
+</div>
+</div>
+</div>
+<!-- Days 7, 8, 9 with Multi-Day Spanning Task Concept -->
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5 relative overflow-visible">
+<span class="font-code-tabular text-[11px] text-outline">7</span>
+<!-- Multi-day start -->
+<div class="absolute top-8 left-2 right-[-210%] z-20 px-2 py-1 rounded-lg bg-primary-container text-on-primary font-label-sm text-label-sm truncate cursor-pointer shadow-lg hover:brightness-110 transition-all" data-task-assignee="Marcus Vance" data-task-due="Oct 7 - Oct 9, 2025 (3 days)" data-task-priority="High" data-task-status="In Progress" data-task-title="Design System documentation" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">auto_stories</span>
+<span class="font-semibold truncate">Design System documentation (3d)</span>
+</div>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">8</span>
+<!-- Spacer for spanned task above -->
+<div class="h-6"></div>
+<div class="px-2 py-1 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Alex Rivera" data-task-due="Oct 8, 2025" data-task-priority="Normal" data-task-status="Ready" data-task-title="Update Tailwind color map" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<span class="truncate">Update Tailwind color map</span>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">9</span>
+<div class="h-6"></div>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">10</span>
+<!-- Medium Priority amber task -->
+<div class="px-2 py-1 rounded-lg bg-secondary-container/30 text-secondary-fixed font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Devon Miles" data-task-due="Oct 10, 2025" data-task-priority="Medium" data-task-status="In Progress" data-task-title="Implement Figma token export" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<span class="truncate">Implement Figma token export</span>
+</div>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container-low p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/60">11</span>
+</div>
+<div class="min-h-[120px] bg-surface-container-low p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/60">12</span>
+</div>
+<!-- Week 3: Oct 13 - Oct 19 -->
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">13</span>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">14</span>
+<!-- High Priority Rose/Error task -->
+<div class="px-2 py-1 rounded-lg bg-error-container/40 text-on-error-container font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Sarah Jenkins" data-task-due="Oct 14, 2025" data-task-priority="Urgent" data-task-status="Blocked" data-task-title="Fix OAuth session timeout" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-error">priority_high</span>
+<span class="truncate font-semibold">Fix OAuth session timeout</span>
+</div>
+</div>
+</div>
+<!-- Current Day Highlight (Oct 15) -->
+<div class="min-h-[120px] bg-surface-container-high/60 p-2 flex flex-col gap-1.5 relative">
+<div class="flex items-center justify-between">
+<div class="w-6 h-6 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-code-tabular text-[11px] font-bold shadow-md">
+              15
+            </div>
+<span class="font-label-sm text-[10px] text-primary font-semibold uppercase tracking-wider">Today</span>
+</div>
+<div class="px-2 py-1 rounded-lg bg-surface-container-highest hover:bg-surface-bright text-on-surface font-label-sm text-label-sm truncate cursor-pointer transition-all" data-task-assignee="Alex Rivera" data-task-due="Oct 15, 2025" data-task-priority="High" data-task-status="In Progress" data-task-title="Database Schema Migration V2" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-primary">database</span>
+<span class="truncate">Database Schema Migration</span>
+</div>
+</div>
+<div class="px-2 py-1 rounded-lg bg-tertiary-container/30 text-tertiary-fixed font-label-sm text-label-sm truncate cursor-pointer transition-all" data-task-assignee="Devon Miles" data-task-due="Oct 15, 2025" data-task-priority="Low" data-task-status="Done" data-task-title="Client SDK Sync" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary">check_circle</span>
+<span class="truncate">Client SDK Sync</span>
+</div>
+</div>
+</div>
+<!-- Oct 16: Cell with Dense Overflow (+2 more) -->
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1">
+<span class="font-code-tabular text-[11px] text-outline">16</span>
+<div class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm truncate cursor-pointer" data-task-assignee="Alex Rivera" data-task-due="Oct 16, 2025" data-task-priority="High" data-task-status="Under Review" data-task-title="API Rate-limit policy" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<span class="truncate">API Rate-limit policy</span>
+</div>
+<div class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm truncate cursor-pointer" data-task-assignee="Sarah Jenkins" data-task-due="Oct 16, 2025" data-task-priority="Medium" data-task-status="In Progress" data-task-title="Stripe webhook retry logic" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<span class="truncate">Stripe webhook retry</span>
+</div>
+<!-- Clickable overflow trigger -->
+<button class="text-left px-1 font-label-sm text-label-sm text-primary hover:underline hover:text-primary-fixed transition-colors font-medium flex items-center gap-1" onclick="alert('Showing all 4 tasks for October 16')" type="button">
+<span class="material-symbols-outlined text-[12px]">add</span>
+<span>2 more</span>
+</button>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">17</span>
+<div class="px-2 py-1 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm truncate cursor-pointer transition-all" data-task-assignee="Devon Miles" data-task-due="Oct 17, 2025" data-task-priority="Normal" data-task-status="Ready" data-task-title="SLA Dashboard Metrics" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<span class="truncate">SLA Dashboard Metrics</span>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container-low p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/60">18</span>
+</div>
+<div class="min-h-[120px] bg-surface-container-low p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/60">19</span>
+</div>
+<!-- Week 4: Oct 20 - Oct 26 -->
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">20</span>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">21</span>
+<div class="px-2 py-1 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Elena Rostova" data-task-due="Oct 21, 2025" data-task-priority="High" data-task-status="Pending" data-task-title="Security Key Rotation" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-error">lock</span>
+<span class="truncate">Security Key Rotation</span>
+</div>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">22</span>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">23</span>
+<div class="px-2 py-1 rounded-lg bg-tertiary-container/30 text-tertiary-fixed font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Alex Rivera" data-task-due="Oct 23, 2025" data-task-priority="Normal" data-task-status="Done" data-task-title="Weekly Release Build 1.8.2" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary">check_circle</span>
+<span class="truncate">Release Build 1.8.2</span>
+</div>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">24</span>
+<div class="px-2 py-1 rounded-lg bg-secondary-container/30 text-secondary-fixed font-label-sm text-label-sm truncate cursor-pointer transition-all hover:scale-[1.01]" data-task-assignee="Marcus Vance" data-task-due="Oct 24, 2025" data-task-priority="Medium" data-task-status="In Design" data-task-title="Mobile App Onboarding Flow" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<span class="truncate">Mobile App Onboarding</span>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container-low p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/60">25</span>
+</div>
+<div class="min-h-[120px] bg-surface-container-low p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/60">26</span>
+</div>
+<!-- Week 5: Oct 27 - Nov 2 -->
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">27</span>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">28</span>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">29</span>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">30</span>
+<div class="px-2 py-1 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm truncate cursor-pointer transition-all" data-task-assignee="All Team" data-task-due="Oct 30, 2025" data-task-priority="High" data-task-status="Scheduled" data-task-title="Sprint 14 Demo &amp; Retrospective" onmouseenter="showTaskPreview(this, event)" onmouseleave="hideTaskPreview()">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-primary">groups</span>
+<span class="truncate">Sprint 14 Demo</span>
+</div>
+</div>
+</div>
+<div class="min-h-[120px] bg-surface-container p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline">31</span>
+</div>
+<div class="min-h-[120px] bg-surface-container-lowest/60 p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/40">1</span>
+</div>
+<div class="min-h-[120px] bg-surface-container-lowest/60 p-2 flex flex-col gap-1.5">
+<span class="font-code-tabular text-[11px] text-outline/40">2</span>
+</div>
+</div>
+</div>
+<!-- Calendar Context & Analytics Drawer Row -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md">
+<!-- Upcoming Milestones -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Upcoming Milestones</span>
+<span class="material-symbols-outlined text-outline text-[16px]">flag</span>
+</div>
+<div class="space-y-2">
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span class="font-body-md text-body-md text-on-surface">SOC2 Readiness Freeze</span>
+</div>
+<span class="font-code-tabular text-[11px] text-outline">Oct 22</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="font-body-md text-body-md text-on-surface">Sprint 14 Review</span>
+</div>
+<span class="font-code-tabular text-[11px] text-outline">Oct 30</span>
+</div>
+</div>
+</div>
+<!-- Sprint Burndown Progress inline SVG chart -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Sprint Pace</span>
+<span class="font-code-tabular text-[11px] text-tertiary">+12% ahead</span>
+</div>
+<div class="flex items-center justify-between gap-4 h-full">
+<div class="flex flex-col justify-center">
+<span class="font-display-lg text-display-lg text-on-surface font-bold">86%</span>
+<span class="font-body-sm text-body-sm text-outline">Target completion</span>
+</div>
+<!-- Inline Sparkline Chart -->
+<svg class="w-36 h-12 text-primary" fill="none" viewbox="0 0 144 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 40L24 35L48 28L72 32L96 18L120 14L142 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+<path d="M2 40L24 35L48 28L72 32L96 18L120 14L142 4V48H2V40Z" fill="currentColor" fill-opacity="0.1"></path>
+</svg>
+</div>
+</div>
+<!-- Quick Legend & Shortcuts -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex flex-col justify-between gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Priority Reference</span>
+<span class="font-code-tabular text-[11px] text-on-surface-variant">Key</span>
+</div>
+<div class="flex flex-wrap items-center gap-2">
+<div class="flex items-center gap-1.5 px-2 py-1 rounded bg-error-container/30 text-on-error-container font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span>Urgent</span>
+</div>
+<div class="flex items-center gap-1.5 px-2 py-1 rounded bg-secondary-container/30 text-secondary-fixed font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>Medium</span>
+</div>
+<div class="flex items-center gap-1.5 px-2 py-1 rounded bg-tertiary-container/30 text-tertiary-fixed font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span>Complete</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-outline font-body-sm text-body-sm pt-1">
+<span>Click on any date to quick-add task</span>
+<span class="font-code-tabular text-[10px] px-1.5 py-0.5 rounded bg-surface-container">C</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Dynamic Hover Slide-out Task Preview Card (Floating overlay) -->
+<div class="hidden fixed z-50 w-80 p-space-md bg-surface-container-high text-on-surface rounded-xl shadow-2xl backdrop-blur-xl transition-all pointer-events-none transform -translate-y-2 opacity-0 duration-150" id="taskPreviewCard">
+<div class="flex items-start justify-between gap-2 pb-2">
+<span class="font-code-tabular text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-error-container text-on-error-container" id="previewTaskPriority">Urgent</span>
+<span class="font-label-sm text-label-sm text-outline" id="previewTaskStatus">In Progress</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2 leading-snug" id="previewTaskTitle">Task Title</h4>
+<div class="space-y-2 py-2 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-1.5 text-outline">
+<span class="material-symbols-outlined text-[15px]">person</span> Assignee:
+        </span>
+<span class="text-on-surface font-medium" id="previewTaskAssignee">Alex Rivera</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-1.5 text-outline">
+<span class="material-symbols-outlined text-[15px]">event</span> Due Date:
+        </span>
+<span class="font-code-tabular text-[11px] text-primary" id="previewTaskDue">Oct 14, 2025</span>
+</div>
+</div>
+<!-- Quick Reschedule affordance -->
+<div class="mt-2 pt-2 bg-surface-container-lowest/50 -mx-space-md -mb-space-md p-space-sm rounded-b-xl flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">schedule</span> Reschedule
+      </span>
+<div class="flex items-center gap-1">
+<button class="px-1.5 py-0.5 rounded bg-surface-container hover:bg-surface-bright text-primary font-code-tabular text-[10px] transition-colors" type="button">+1d</button>
+<button class="px-1.5 py-0.5 rounded bg-surface-container hover:bg-surface-bright text-primary font-code-tabular text-[10px] transition-colors" type="button">+1w</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  let previewTimeout;
+  const previewCard = document.getElementById('taskPreviewCard');
+
+  function showTaskPreview(el, event) {
+    clearTimeout(previewTimeout);
+    
+    // Extract attributes
+    const title = el.getAttribute('data-task-title');
+    const assignee = el.getAttribute('data-task-assignee');
+    const priority = el.getAttribute('data-task-priority');
+    const status = el.getAttribute('data-task-status');
+    const due = el.getAttribute('data-task-due');
+
+    // Populate data
+    document.getElementById('previewTaskTitle').innerText = title;
+    document.getElementById('previewTaskAssignee').innerText = assignee;
+    document.getElementById('previewTaskStatus').innerText = status;
+    document.getElementById('previewTaskDue').innerText = due;
+
+    const priorityBadge = document.getElementById('previewTaskPriority');
+    priorityBadge.innerText = priority;
+    if (priority === 'Urgent' || priority === 'High') {
+      priorityBadge.className = 'font-code-tabular text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-error-container text-on-error-container';
+    } else if (priority === 'Medium') {
+      priorityBadge.className = 'font-code-tabular text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container';
+    } else {
+      priorityBadge.className = 'font-code-tabular text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-tertiary-container text-tertiary-fixed';
+    }
+
+    // Positioning
+    const rect = el.getBoundingClientRect();
+    let topPos = rect.bottom + 8;
+    let leftPos = rect.left;
+
+    // Boundary check for right viewport edge
+    if (leftPos + 320 > window.innerWidth) {
+      leftPos = window.innerWidth - 340;
+    }
+
+    previewCard.style.top = topPos + 'px';
+    previewCard.style.left = leftPos + 'px';
+
+    previewCard.classList.remove('hidden');
+    requestAnimationFrame(() => {
+      previewCard.classList.remove('opacity-0', '-translate-y-2');
+      previewCard.classList.add('opacity-100', 'translate-y-0');
+    });
+  }
+
+  function hideTaskPreview() {
+    previewTimeout = setTimeout(() => {
+      previewCard.classList.remove('opacity-100', 'translate-y-0');
+      previewCard.classList.add('opacity-0', '-translate-y-2');
+      setTimeout(() => {
+        previewCard.classList.add('hidden');
+      }, 150);
+    }, 100);
+  }
+</script></main></div></body></html>

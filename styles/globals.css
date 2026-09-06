@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light scheme — inverted from Stitch dark-first tokens */
+:root {
+  --wm-inverse-on-surface: #dae2fd;
+  --wm-primary: #494bd6;
+  --wm-outline: #6d6c7c;
+  --wm-surface-tint: #494bd6;
+  --wm-error: #ba1a1a;
+  --wm-surface-variant: #e0e4f0;
+  --wm-secondary: #006397;
+  --wm-on-surface-variant: #464554;
+  --wm-surface-dim: #e8ebf4;
+  --wm-on-tertiary-container: #002113;
+  --wm-on-primary-fixed: #07006c;
+  --wm-outline-variant: #c5c3d2;
+  --wm-on-primary-fixed-variant: #2f2ebe;
+  --wm-surface-container: #e6eaf4;
+  --wm-inverse-primary: #c0c1ff;
+  --wm-tertiary: #006c4a;
+  --wm-secondary-container: #cce5ff;
+  --wm-on-surface: #0b1326;
+  --wm-on-error: #ffffff;
+  --wm-background: #f6f7fb;
+  --wm-surface-container-high: #dde2ef;
+  --wm-surface-bright: #ffffff;
+  --wm-on-secondary-container: #001d31;
+  --wm-primary-container: #e1e0ff;
+  --wm-surface-container-low: #eef1f8;
+  --wm-on-tertiary: #ffffff;
+  --wm-primary-fixed: #e1e0ff;
+  --wm-primary-fixed-dim: #c0c1ff;
+  --wm-tertiary-fixed: #6ffbbe;
+  --wm-inverse-surface: #0b1326;
+  --wm-secondary-fixed-dim: #93ccff;
+  --wm-surface-container-highest: #d3d9e8;
+  --wm-surface-container-lowest: #ffffff;
+  --wm-on-primary-container: #0d0096;
+  --wm-on-background: #0b1326;
+  --wm-on-secondary-fixed: #001d31;
+  --wm-on-tertiary-fixed-variant: #005236;
+  --wm-on-secondary: #ffffff;
+  --wm-on-secondary-fixed-variant: #004b73;
+  --wm-tertiary-container: #6ffbbe;
+  --wm-tertiary-fixed-dim: #4edea3;
+  --wm-surface: #f6f7fb;
+  --wm-on-error-container: #410002;
+  --wm-on-tertiary-fixed: #002113;
+  --wm-on-primary: #ffffff;
+  --wm-error-container: #ffdad6;
+  --wm-secondary-fixed: #cce5ff;
+}
+
+/* Stitch kinetic_enterprise_precision — exact dark tokens */
+.dark {
+  --wm-inverse-on-surface: #283044;
+  --wm-primary: #c0c1ff;
+  --wm-outline: #908fa0;
+  --wm-surface-tint: #c0c1ff;
+  --wm-error: #ffb4ab;
+  --wm-surface-variant: #2d3449;
+  --wm-secondary: #93ccff;
+  --wm-on-surface-variant: #c7c4d7;
+  --wm-surface-dim: #0b1326;
+  --wm-on-tertiary-container: #000703;
+  --wm-on-primary-fixed: #07006c;
+  --wm-outline-variant: #464554;
+  --wm-on-primary-fixed-variant: #2f2ebe;
+  --wm-surface-container: #171f33;
+  --wm-inverse-primary: #494bd6;
+  --wm-tertiary: #4edea3;
+  --wm-secondary-container: #3198dc;
+  --wm-on-surface: #dae2fd;
+  --wm-on-error: #690005;
+  --wm-background: #0b1326;
+  --wm-surface-container-high: #222a3d;
+  --wm-surface-bright: #31394d;
+  --wm-on-secondary-container: #002c47;
+  --wm-primary-container: #8083ff;
+  --wm-surface-container-low: #131b2e;
+  --wm-on-tertiary: #003824;
+  --wm-primary-fixed: #e1e0ff;
+  --wm-primary-fixed-dim: #c0c1ff;
+  --wm-tertiary-fixed: #6ffbbe;
+  --wm-inverse-surface: #dae2fd;
+  --wm-secondary-fixed-dim: #93ccff;
+  --wm-surface-container-highest: #2d3449;
+  --wm-surface-container-lowest: #060e20;
+  --wm-on-primary-container: #0d0096;
+  --wm-on-background: #dae2fd;
+  --wm-on-secondary-fixed: #001d31;
+  --wm-on-tertiary-fixed-variant: #005236;
+  --wm-on-secondary: #003351;
+  --wm-on-secondary-fixed-variant: #004b73;
+  --wm-tertiary-container: #00885d;
+  --wm-tertiary-fixed-dim: #4edea3;
+  --wm-surface: #0b1326;
+  --wm-on-error-container: #ffdad6;
+  --wm-on-tertiary-fixed: #002113;
+  --wm-on-primary: #1000a9;
+  --wm-error-container: #93000a;
+  --wm-secondary-fixed: #cce5ff;
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    overscroll-behavior: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+@keyframes shrink {
+  from { transform: scaleX(1); }
+  to { transform: scaleX(0); }
+}
